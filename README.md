@@ -14,7 +14,7 @@ Directed and UnDirected Graph Adjecency Matrix
 # PART 4
 
 # Degree Centrality
-Degree centrality assigns an importance score based simply on the number of links held by each node.
+It counts the number of connections each node in the network has. A node with a high degree of centrality in the network is interconnected with several other nodes.
 
 # Betweenness centrality
 Betweenness centrality measures the number of times a node lies on the shortest path between other nodes.
@@ -26,4 +26,4 @@ Closeness centrality scores each node based on their ‘closeness’ to all othe
 Like degree centrality, EigenCentrality measures a node’s influence based on the number of links it has to other nodes in the network. EigenCentrality then goes a step further by also taking into account how well connected a node is, and how many links their connections have, and so on through the network.
 
 # PageRank centrality
-This measures the importance of a node in a network based on the number and quality of links pointing to it. It is commonly used in web search engines to rank the importance of web pages.
+Based on the quantity and quality of links pointing at a node, this gauges its significance inside a network. Web search engines frequently utilise it to rank the importance of web pages.

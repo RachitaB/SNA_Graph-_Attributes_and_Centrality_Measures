@@ -25,5 +25,5 @@ Closeness centrality scores each node based on their ‘closeness’ to all othe
 # Eigen vector Centrality
 Like degree centrality, EigenCentrality measures a node’s influence based on the number of links it has to other nodes in the network. EigenCentrality then goes a step further by also taking into account how well connected a node is, and how many links their connections have, and so on through the network.
 
-#PageRank centrality
+# PageRank centrality
 This measures the importance of a node in a network based on the number and quality of links pointing to it. It is commonly used in web search engines to rank the importance of web pages.
